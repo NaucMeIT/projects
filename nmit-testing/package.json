@@ -21,7 +21,7 @@
     "@tutorialkit/astro": "1.2.1",
     "@tutorialkit/theme": "1.2.1",
     "@tutorialkit/types": "1.2.1",
-    "@types/node": "^20.14.6",
+    "@types/node": "^22.0.0",
     "@types/react": "^18.3.3",
     "astro": "^4.15.0",
     "prettier-plugin-astro": "^0.14.1",
