@@ -1,0 +1,153 @@
+/* Light Mode (Default) */
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  /* Background Colors */
+  --tk-background-primary: #FFFBEB;  /* Amber 50 */
+  --tk-background-secondary: #FAE8FF;  /* Fuchsia 100 */
+  --tk-background-active: #F5D0FE;  /* Fuchsia 200 */
+  --tk-background-active-secondary: #FFFBEB;  /* Amber 50 */
+  --tk-background-brighter: #FFFBEB;  /* Amber 50 */
+  --tk-background-accent: #C026D3;  /* Fuchsia 600 */
+  --tk-background-accent-secondary: #C026D3;  /* Fuchsia 600 */
+  --tk-background-accent-active: #E879F9;  /* Fuchsia 400 */
+  --tk-background-positive: #9EFF00;  /* NMIT Green */
+  --tk-background-warning: #FACC15;  /* Yellow 400 */
+  --tk-background-negative: #FF0000;  /* Red 500 */
+  --tk-background-info: #00CAFF;  /* NMIT Dark Turquoise */
+  --tk-background-tip: #F1B9FF;  /* Fuchsia 300 */
+
+  /* Text Colors */
+  --tk-text-primary: #4A044E;  /* Fuchsia 950 */
+  --tk-text-primary-inverted: #FFFBEB;  /* Amber 50 */
+  --tk-text-secondary: #78716C;  /* Stone 500 */
+  --tk-text-secondary-inverted: #A8A29E;  /* Stone 400 */
+  --tk-text-disabled: #A8A29E;  /* Stone 400 */
+  --tk-text-body: #57534E;  /* Stone 600 */
+  --tk-text-heading: #0A0A0A;  /* Stone 950 */
+  --tk-text-active: #1C1917;  /* Stone 900 */
+  --tk-text-accent: #C026D3;  /* Fuchsia 600 */
+  --tk-text-positive: #9EFF00;  /* NMIT Green */
+  --tk-text-warning: #EAB308;  /* Yellow 500 */
+  --tk-text-negative: #DC2626;  /* Red 600 */
+  --tk-text-info: #00CAFF;  /* NMIT Dark Turquoise */
+  --tk-text-tip: #701A75;  /* Fuchsia 900 */
+
+  /* Border Colors */
+  --tk-border-primary: #A8A29E;  /* Stone 400 */
+  --tk-border-secondary: #A8A29E;  /* Stone 400 */
+  --tk-border-brighter: #78716C;  /* Stone 500 */
+  --tk-border-accent: #C026D3;  /* Fuchsia 600 */
+  --tk-border-positive: #9EFF00;  /* NMIT Green */
+  --tk-border-warning: #FACC15;  /* Yellow 400 */
+  --tk-border-negative: #FF0000;  /* Red 500 */
+  --tk-border-info: #00CAFF;  /* NMIT Dark Turquoise */
+  --tk-border-tip: #C026D3;  /* Fuchsia 600 */
+
+  /* Interactive Sidebar Colors */
+  --tk-elements-terminal-backgroundColor: theme('colors.gray.0');
+	--tk-elements-editor-backgroundColor: theme('colors.gray.0');
+	--tk-elements-fileTree-backgroundColor: theme('colors.gray.0');
+	--tk-elements-fileTree-file-backgroundColorSelected: #F5D0FE;
+	--tk-elements-panel-headerTab-backgroundColor: theme('colors.gray.0');
+	--tk-elements-panel-headerTab-backgroundColorActive: theme('colors.gray.100');
+	--tk-elements-panel-header-backgroundColor: theme('colors.gray.0');
+	--tk-elements-panel-backgroundColor: theme('colors.gray.0');
+
+	/* Breadcrumbs Menu Colors */
+	--tk-elements-breadcrumbs-toggleButton-backgroundColor: #4A044E;
+	--tk-elements-breadcrumbs-toggleButton-textColor: #FFFBEB;
+  --tk-elements-breadcrumbs-toggleButton-backgroundColorHover: #701A75;
+  --tk-elements-breadcrumbs-toggleButton-iconColor: #FFFBEB;
+  --tk-elements-breadcrumbs-toggleButton-iconColorHover: #FEF3C7;
+	--tk-elements-breadcrumbs-dropdown-backgroundColor: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-accordionTextColor: #FFFBEB;
+  --tk-elements-breadcrumbs-dropdown-textColor: #4A044E;
+  --tk-elements-breadcrumbs-dropdown-textColorHover: #701A75;
+	--tk-elements-breadcrumbs-dropdown-lessonTextColorSelected: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-lessonTextColor: #FEF3C7;
+  --tk-elements-breadcrumbs-dropdown-lessonTextColorHover: #FFFBEB;
+	--tk-elements-breadcrumbs-dropdown-lessonTextColorSelected: #FEF3C7;
+  --tk-elements-breadcrumbs-dropdown-lessonBackgroundColorSelected: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-accordionTextColorHover: #FEF3C7;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColor: #FFFBEB;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColorHover: #FEF3C7;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColorSelected: #FEF3C7;
+}
+
+/* Dark Mode */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Background Colors */
+  --tk-background-primary: #4A044E;  /* Fuchsia 950 */
+  --tk-background-secondary: #701A75;  /* Fuchsia 900 */
+  --tk-background-active: #C026D3;  /* Fuchsia 600 */
+  --tk-background-active-secondary: #4A044E;  /* Fuchsia 950 */
+  --tk-background-brighter: #4A044E;  /* Fuchsia 950 */
+  --tk-background-accent: #E879F9;  /* Fuchsia 400 */
+  --tk-background-accent-secondary: #E879F9;  /* Fuchsia 400 */
+  --tk-background-accent-active: #F1B9FF;  /* Fuchsia 300 */
+  --tk-background-positive: #9EFF00;  /* NMIT Green */
+  --tk-background-warning: #EAB308;  /* Yellow 500 */
+  --tk-background-negative: #DC2626;  /* Red 600 */
+  --tk-background-info: #00FFE0;  /* NMIT Turquoise */
+  --tk-background-tip: #F5D0FE;  /* Fuchsia 200 */
+
+  /* Text Colors */
+  --tk-text-primary: #FFFBEB;  /* Amber 50 */
+  --tk-text-primary-inverted: #4A044E;  /* Fuchsia 950 */
+  --tk-text-secondary: #A8A29E;  /* Stone 400 */
+  --tk-text-secondary-inverted: #78716C;  /* Stone 500 */
+  --tk-text-disabled: #57534E;  /* Stone 600 */
+  --tk-text-body: #FAFAF9;  /* Stone 50 */
+  --tk-text-heading: #FFFBEB;  /* Amber 50 */
+  --tk-text-active: #FFFBEB;  /* Amber 50 */
+  --tk-text-accent: #F1B9FF;  /* Fuchsia 300 */
+  --tk-text-positive: #9EFF00;  /* NMIT Green */
+  --tk-text-warning: #FACC15;  /* Yellow 400 */
+  --tk-text-negative: #FF0000;  /* Red 500 */
+  --tk-text-info: #00FFE0;  /* NMIT Turquoise */
+  --tk-text-tip: #F5D0FE;  /* Fuchsia 200 */
+
+  /* Border Colors */
+  --tk-border-primary: #57534E;  /* Stone 600 */
+  --tk-border-secondary: #57534E;  /* Stone 600 */
+  --tk-border-brighter: #78716C;  /* Stone 500 */
+  --tk-border-accent: #E879F9;  /* Fuchsia 400 */
+  --tk-border-positive: #9EFF00;  /* NMIT Green */
+  --tk-border-warning: #EAB308;  /* Yellow 500 */
+  --tk-border-negative: #DC2626;  /* Red 600 */
+  --tk-border-info: #00FFE0;  /* NMIT Turquoise */
+  --tk-border-tip: #F1B9FF;  /* Fuchsia 300 */
+
+  /* Interactive Sidebar Colors */
+  --tk-elements-terminal-backgroundColor: theme('colors.gray.1000');
+	--tk-elements-editor-backgroundColor: theme('colors.gray.1000');
+	--tk-elements-fileTree-backgroundColor: theme('colors.gray.1000');
+	--tk-elements-fileTree-file-backgroundColorSelected: #4A044E;
+	--tk-elements-panel-headerTab-backgroundColor: theme('colors.gray.1000');
+	--tk-elements-panel-headerTab-backgroundColorActive: theme('colors.gray.900');
+	--tk-elements-panel-header-backgroundColor: theme('colors.gray.1000');
+	--tk-elements-panel-backgroundColor: theme('colors.gray.1000');
+
+	/* Breadcrumbs Menu Colors */
+	--tk-elements-breadcrumbs-toggleButton-backgroundColor: #FFFBEB;
+  --tk-elements-breadcrumbs-toggleButton-textColor: #4A044E;
+  --tk-elements-breadcrumbs-toggleButton-backgroundColorHover: #FEF3C7;
+  --tk-elements-breadcrumbs-toggleButton-iconColor: #4A044E;
+  --tk-elements-breadcrumbs-toggleButton-iconColorHover: #701A75;
+	--tk-elements-breadcrumbs-dropdown-backgroundColor: #FFFBEB;
+	--tk-elements-breadcrumbs-dropdown-accordionTextColor: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-textColor: #FFFBEB;
+  --tk-elements-breadcrumbs-dropdown-textColorHover: #FEF3C7;
+	--tk-elements-breadcrumbs-dropdown-lessonTextColor: #701A75;
+  --tk-elements-breadcrumbs-dropdown-lessonTextColorHover: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-lessonTextColorSelected: #4A044E;
+  --tk-elements-breadcrumbs-dropdown-lessonBackgroundColorSelected: #FEF3C7;
+	--tk-elements-breadcrumbs-dropdown-accordionTextColorHover: #701A75;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColor: #4A044E;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColorHover: #701A75;
+	--tk-elements-breadcrumbs-dropdown-accordionIconColorSelected: #701A75;
+}

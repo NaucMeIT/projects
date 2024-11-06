@@ -1,0 +1,17 @@
+{
+	"name": "vite-monorepo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "pnpm -filter \"nmit-*\" build",
+		"dev": "pnpm -filter \"nmit-*\" dev",
+		"build:mf": "pnpm -filter \"vite-*\" build",
+		"dev:mf": "pnpm -filter \"vite-*\" dev"
+	},
+	"author": "Petr Glaser",
+	"license": "MIT",
+	"description": "",
+	"dependencies": {
+		"@module-federation/vite": "1.1.5"
+	}
+}

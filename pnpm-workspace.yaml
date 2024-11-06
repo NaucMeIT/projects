@@ -1,0 +1,6 @@
+packages:
+    - host
+    - rsbuild-remote
+    - vite-remote
+    - rslib-ui
+    - nmit-*
