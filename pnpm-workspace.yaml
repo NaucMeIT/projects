@@ -3,4 +3,5 @@ packages:
     - rsbuild-remote
     - vite-remote
     - rslib-ui
+    - one-*
     - nmit-*

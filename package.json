@@ -6,7 +6,8 @@
 		"build": "pnpm -filter \"nmit-*\" build",
 		"dev": "pnpm -filter \"nmit-*\" dev",
 		"build:mf": "pnpm -filter \"vite-*\" build",
-		"dev:mf": "pnpm -filter \"vite-*\" dev"
+		"dev:mf": "pnpm -filter \"vite-*\" dev",
+		"dev:one": "pnpm -filter \"one-*\" dev"
 	},
 	"author": "Petr Glaser",
 	"license": "MIT",
