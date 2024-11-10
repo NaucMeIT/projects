@@ -174,8 +174,8 @@ importers:
   rsbuild-remote:
     dependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: 0.7.0
-        version: 0.7.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)
+        specifier: 0.7.1
+        version: 0.7.1(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -209,8 +209,8 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: 0.7.0
-        version: 0.7.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)
+        specifier: 0.7.1
+        version: 0.7.1(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)
       '@rsbuild/plugin-react':
         specifier: ^1.0.6
         version: 1.0.6(@rsbuild/core@1.0.19)
@@ -1924,11 +1924,11 @@ packages:
   '@module-federation/manifest@0.7.0':
     resolution: {integrity: sha512-xMinU3KmI3AjcJC4/8qkKWnK1fbmpx5kfbDWAeaPEMMiHnjUcKgLG52LBJ6NIaTe4hV9rxCm5UxLN3jqrzbMpw==}
 
-  '@module-federation/rsbuild-plugin@0.7.0':
-    resolution: {integrity: sha512-yFH9ycOOB4iotnvVW8gEctZGy0GQCged4n9Sjw8tBDVSrWjWW+XcSEqJFj01rEuHWXK2VJRRrKo2DQJ7Lc0RKQ==}
+  '@module-federation/rsbuild-plugin@0.7.1':
+    resolution: {integrity: sha512-iPZ2ztIPLzK6Dp7ZACYT8Fqi5kkzxkESZfqyeAMMsftEqYGNf2c6YcH7P3rBAM1hD9UWbTSZQdBFkM7nP4Hw0w==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@module-federation/enhanced': 0.7.0
+      '@module-federation/enhanced': 0.7.1
       '@rsbuild/core': 1.x
 
   '@module-federation/rspack@0.7.0':
@@ -1965,6 +1965,9 @@ packages:
 
   '@module-federation/sdk@0.7.0':
     resolution: {integrity: sha512-4V/ACYDoEOlV8sFcIBx6DPd6DQ/Zn5ckbdNVgO+8md3F9rHUdZowEDCpwzg4au0ZDMiaO2VS/6PIIVKKJw+W4g==}
+
+  '@module-federation/sdk@0.7.1':
+    resolution: {integrity: sha512-fcjJoxdi8YHYAU9gcFC2hoDPoE4rbpfpJyVE/RNbnAP+nhYNVU4WDm9PO4HohDMZ5a/4Xr0z6WSh4ZqdFn7+AA==}
 
   '@module-federation/third-party-dts-extractor@0.7.0':
     resolution: {integrity: sha512-ERKW61ONZ0dgXHDE8Ld/KnwY+0TbmiZSFa99IuW6t+FKUoM9snvGqBSs5bgbY4ZjxG8mG6t1nLdTj2+/f7xejw==}
@@ -5900,6 +5903,10 @@ packages:
 
   isomorphic-rslog@0.0.5:
     resolution: {integrity: sha512-pkU3vvajRJ0LKLaMFy8Cj7ElbFUdkQKVhUk+DQsVCYsLW4uulU65C2s3l+Sm5OtiOwprzkYYcAIJa/COwCYHWA==}
+    engines: {node: '>=14.17.6'}
+
+  isomorphic-rslog@0.0.6:
+    resolution: {integrity: sha512-HM0q6XqQ93psDlqvuViNs/Ea3hAyGDkIdVAHlrEocjjAwGrs1fZ+EdQjS9eUPacnYB7Y8SoDdSY3H8p3ce205A==}
     engines: {node: '>=14.17.6'}
 
   isomorphic-ws@5.0.0:
@@ -11046,10 +11053,10 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/rsbuild-plugin@0.7.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)':
+  '@module-federation/rsbuild-plugin@0.7.1(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.0.19)':
     dependencies:
       '@module-federation/enhanced': 0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
-      '@module-federation/sdk': 0.7.0
+      '@module-federation/sdk': 0.7.1
       '@rsbuild/core': 1.0.19
 
   '@module-federation/rspack@0.7.0(typescript@5.6.3)':
@@ -11100,6 +11107,10 @@ snapshots:
   '@module-federation/sdk@0.7.0':
     dependencies:
       isomorphic-rslog: 0.0.5
+
+  '@module-federation/sdk@0.7.1':
+    dependencies:
+      isomorphic-rslog: 0.0.6
 
   '@module-federation/third-party-dts-extractor@0.7.0':
     dependencies:
@@ -16403,6 +16414,8 @@ snapshots:
   isomorphic-rslog@0.0.4: {}
 
   isomorphic-rslog@0.0.5: {}
+
+  isomorphic-rslog@0.0.6: {}
 
   isomorphic-ws@5.0.0(ws@8.18.0):
     dependencies:
