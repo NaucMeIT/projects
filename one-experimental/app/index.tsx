@@ -2,7 +2,8 @@ import { Image } from '@tamagui/image-next'
 import { Text, YStack } from 'tamagui'
 import { ToggleThemeButton } from '~/code/ToggleThemeButton'
 import { DomComponent } from '~/code/DomComponent'
-import oneBall from '~/public/app-icon.png'
+import oneBall from '/app-icon.png?url'
+import { Button } from "vite-rslib-ui"
 
 export function HomePage() {
   return (
@@ -11,6 +12,7 @@ export function HomePage() {
       <Image src={oneBall} width={128} height={128} />
       <ToggleThemeButton />
       <DomComponent />
+      <Button />
     </YStack>
   )
 }
