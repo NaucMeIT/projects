@@ -142,8 +142,8 @@ importers:
         specifier: ^1.0.6
         version: 1.0.7(@rsbuild/core@1.1.0)
       '@rslib/core':
-        specifier: ^0.0.17
-        version: 0.0.17(typescript@5.6.3)
+        specifier: ^0.0.18
+        version: 0.0.18(typescript@5.6.3)
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -1429,8 +1429,8 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rslib/core@0.0.17':
-    resolution: {integrity: sha512-o7jYVEN9uUDn876Xr+vHo1HflWTMCZUpS7DNsNHiyLHtoKu+zPUXh6oAIqMnAZQ6qELgSw2Z+3guGuFUCI9cAg==}
+  '@rslib/core@0.0.18':
+    resolution: {integrity: sha512-TN3WOgpX5FvHDA5oWm/5vG+sQQhzkUiHx0YjgEQHA0IiRUJNwaqDvSyRyQkBqWrQw5o6WpVet9kM/P6+rm4RSw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
@@ -3673,8 +3673,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.0.17:
-    resolution: {integrity: sha512-28hwMuhkP7G9om0PpVB0fajP+Q2HsQCv+fYEpEe4PknRbQT1dwS0HnCkkcUeF0ynwfp55wlopMuUk/m2JKFbjg==}
+  rsbuild-plugin-dts@0.0.18:
+    resolution: {integrity: sha512-svOrOUi3INkEEhUShMtUBqpBKNdco6qY8BmvO7wAHzU736p3bemlf79ubxDpWFR1WbML9ahv6MqrIQunu3aDNg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -5811,10 +5811,10 @@ snapshots:
       '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
       react-refresh: 0.14.2
 
-  '@rslib/core@0.0.17(typescript@5.6.3)':
+  '@rslib/core@0.0.18(typescript@5.6.3)':
     dependencies:
       '@rsbuild/core': 1.1.0
-      rsbuild-plugin-dts: 0.0.17(@rsbuild/core@1.1.0)(typescript@5.6.3)
+      rsbuild-plugin-dts: 0.0.18(@rsbuild/core@1.1.0)(typescript@5.6.3)
       tinyglobby: 0.2.10
     optionalDependencies:
       typescript: 5.6.3
@@ -8796,7 +8796,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.25.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.0.17(@rsbuild/core@1.1.0)(typescript@5.6.3):
+  rsbuild-plugin-dts@0.0.18(@rsbuild/core@1.1.0)(typescript@5.6.3):
     dependencies:
       '@rsbuild/core': 1.1.0
       magic-string: 0.30.12
