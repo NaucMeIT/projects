@@ -24,7 +24,7 @@ export default defineConfig({
         lib: {
           name: "lib",
           type: "module",
-          entry: "http://localhost:3001/mf/mf-manifest.json",
+          entry: "http://localhost:3000/mf-manifest.json",
         }
       },
       shared: ["react", "react-dom"]

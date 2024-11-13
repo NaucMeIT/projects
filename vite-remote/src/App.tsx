@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { Button } from 'vite-rslib-ui'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,9 +8,9 @@ function App() {
   return (
     <>
       <h1>Remote Vite</h1>
-      <button onClick={() => setCount((count) => count + 1)}>
+      <Button primary onClick={() => setCount((count) => count + 1)}>
         count is {count}
-      </button>
+      </Button>
       <p>
         Edit <code>src/App.tsx</code> and save to test HMR
       </p>
