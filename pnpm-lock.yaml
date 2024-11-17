@@ -58,8 +58,8 @@ importers:
   nmit-testing:
     dependencies:
       '@tutorialkit/react':
-        specifier: 1.2.2
-        version: 1.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+        specifier: 1.3.0
+        version: 1.3.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -77,11 +77,11 @@ importers:
         specifier: 1.3.0
         version: 1.3.0(@types/react-dom@18.3.1)(astro@4.16.10(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       '@tutorialkit/theme':
-        specifier: 1.2.2
-        version: 1.2.2(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+        specifier: 1.3.0
+        version: 1.3.0(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       '@tutorialkit/types':
-        specifier: 1.2.2
-        version: 1.2.2
+        specifier: 1.3.0
+        version: 1.3.0
       '@types/node':
         specifier: ^20.14.6
         version: 20.17.6
@@ -101,8 +101,8 @@ importers:
   rsbuild-remote:
     dependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: 0.7.3
-        version: 0.7.3(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)
+        specifier: 0.7.5
+        version: 0.7.5(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -136,8 +136,8 @@ importers:
         version: 18.3.1(react@18.3.1)
     devDependencies:
       '@module-federation/rsbuild-plugin':
-        specifier: 0.7.3
-        version: 0.7.3(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)
+        specifier: 0.7.5
+        version: 0.7.5(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)
       '@rsbuild/plugin-react':
         specifier: ^1.0.6
         version: 1.0.7(@rsbuild/core@1.1.2)
@@ -456,9 +456,6 @@ packages:
   '@codemirror/state@6.4.1':
     resolution: {integrity: sha512-QkEyUiLhsJoZkbumGZlswmAhA7CBU02Wrz7zvH4SrcifbsqwlXShVXg65f3v/ts57W3dqyamEriMhij1Z3Zz4A==}
 
-  '@codemirror/view@6.34.2':
-    resolution: {integrity: sha512-d6n0WFvL970A9Z+l9N2dO+Hk9ev4hDYQzIx+B9tCyBP0W5wPEszi1rhuyFesNSkLZzXbQE5FPH7F/z/TMJfoPA==}
-
   '@codemirror/view@6.34.3':
     resolution: {integrity: sha512-Ph5d+u8DxIeSgssXEakaakImkzBV4+slwIbcxl9oc9evexJhImeu/G8TK7+zp+IFK9KuJ0BdSn6kTBJeH2CHvA==}
 
@@ -648,10 +645,6 @@ packages:
 
   '@eslint/eslintrc@3.2.0':
     resolution: {integrity: sha512-grOjVNN8P3hjJn/eIETF1wwd12DdnwFDoyceUJLYYdkpbwq3nLi+4fqrTAONx7XDALqlL220wC/RHSC/QTI/0w==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@eslint/js@9.14.0':
-    resolution: {integrity: sha512-pFoEtFWCPyDOl+C6Ift+wC7Ro89otjigCf5vcuWqWgqNSQbRrpjSvdeE6ofLz4dHmyxD5f7gIdGT4+p36L6Twg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/js@9.15.0':
@@ -928,11 +921,11 @@ packages:
   '@module-federation/manifest@0.7.0':
     resolution: {integrity: sha512-xMinU3KmI3AjcJC4/8qkKWnK1fbmpx5kfbDWAeaPEMMiHnjUcKgLG52LBJ6NIaTe4hV9rxCm5UxLN3jqrzbMpw==}
 
-  '@module-federation/rsbuild-plugin@0.7.3':
-    resolution: {integrity: sha512-Nisiyjj2MklMKM+w1p+9k43jQ58Ik6gX8XwUxM8JX8Ttt8TPaHtfKn/Uf79oCUxP501NsALkZ0Cr5hpEqdNSmQ==}
+  '@module-federation/rsbuild-plugin@0.7.5':
+    resolution: {integrity: sha512-4MVbTnXy84MmqAExliuCoRxoH2SRbcVMHQmeFmLCtAbU8E0FJH4XxE/MjF2CzI1lWPZ+s+bvpj4p3jILdjGSOQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@module-federation/enhanced': 0.7.3
+      '@module-federation/enhanced': 0.7.5
       '@rsbuild/core': 1.x
 
   '@module-federation/rspack@0.7.0':
@@ -969,6 +962,9 @@ packages:
 
   '@module-federation/sdk@0.7.3':
     resolution: {integrity: sha512-DeU2pvEqiTWcfuZuWeV1/XSRU6zC4u7v2uLg44F6uRt5+F0W/eVwb0Wme9CmEmL/oit0dZ7qe09bf/IRrEJylw==}
+
+  '@module-federation/sdk@0.7.5':
+    resolution: {integrity: sha512-01lpIxw5iOQzlQXqe3G6FZUMSQwufYqfj8O8R3dJNDqWhkjy7PFl5cB2S/SdR9dDv61uj/jmijpuAXnCzwNFQQ==}
 
   '@module-federation/third-party-dts-extractor@0.7.0':
     resolution: {integrity: sha512-ERKW61ONZ0dgXHDE8Ld/KnwY+0TbmiZSFa99IuW6t+FKUoM9snvGqBSs5bgbY4ZjxG8mG6t1nLdTj2+/f7xejw==}
@@ -1556,26 +1552,14 @@ packages:
     peerDependencies:
       astro: ^4.15.0
 
-  '@tutorialkit/react@1.2.2':
-    resolution: {integrity: sha512-om6SWJNHpY6zqqKglhysduR8A7mHuT9jei9Mde/fRBPKEDRev13yU1iEZsdxvWhjQ4kZ4uwAxfmAVE9I0eueTA==}
-
   '@tutorialkit/react@1.3.0':
     resolution: {integrity: sha512-0rsPEoNWZ1GalP6EcAH4wFKEhp0+481IVOzuF/4OIjkliztk5TPU+HytDBRyH6Y5t/7rLFL3P+dWRnWstDnXKQ==}
-
-  '@tutorialkit/runtime@1.2.2':
-    resolution: {integrity: sha512-fPa5E00qjQ34vjlvNMkkj5x9s7Zhkk6wy1StbDtuq/j8+TbnUHGYEEYFPN/rDeWXdGsEdJT8oIUx6tpcZ3asGg==}
 
   '@tutorialkit/runtime@1.3.0':
     resolution: {integrity: sha512-Z5V9f4v7HDjweqUns/XoLkyXCQ1VtLgCJbqp6OUIW90972pVFbbJaFLREFaPm50CVaUM2vGEWhscc05fK3ZFhw==}
 
-  '@tutorialkit/theme@1.2.2':
-    resolution: {integrity: sha512-0u5e3VLIOeuVjEBSRo+/oQSTAINgZDZHF1dKV3MQSTuMqFs5qoKSegsndW7dK1LqgcfoaDRs3uGhME6iokNYBA==}
-
   '@tutorialkit/theme@1.3.0':
     resolution: {integrity: sha512-h4FHRqIsxnwnrlGfym3VNaXNnNk9txlEPmW4Xf8UXFXLI104/UIPTbLJFRN5i+pZNgu/Dr4PIK/DAUvBlycqwQ==}
-
-  '@tutorialkit/types@1.2.2':
-    resolution: {integrity: sha512-I5csirCvRPp/qAh5H35cDhgQ6kJdyom1udFuny40jTXu+QjFB9tPkgGR1NycXlYkJkvslX0Q4SGBAffv3mV7vQ==}
 
   '@tutorialkit/types@1.3.0':
     resolution: {integrity: sha512-odi5sgT6NLupkQV/EuTtsYR93KeP9PxoJYw2T1cX0H3urUz5Cx3XdtxSEGc4be1dSn196sRjdkIEC/l064Z3cw==}
@@ -1855,9 +1839,6 @@ packages:
 
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
-
-  '@webcontainer/api@1.2.4':
-    resolution: {integrity: sha512-vV42eKuat5QGz7agFJupT5sZj0CHOj/gg6J3/HanvgOVETt7gupzR+iuVNHwudS3yuW+x78Ai7T6fwvV7uBThQ==}
 
   '@webcontainer/api@1.5.1':
     resolution: {integrity: sha512-+ELk+TbTOUx0LawAUdB+nnxaofg/FxUXo/Ac/+CzHSP3SOc3ebBAW3fLo4UZfvJdUW+ygWZOiQMthPLQXvKZEg==}
@@ -2569,20 +2550,6 @@ packages:
   form-data@4.0.1:
     resolution: {integrity: sha512-tzN8e4TX8+kkxGPK8D5u0FNmjPUjw3lwC9lSLxxoB/+GtsJG91CO8bSWy73APlgAZzZbXEYZJuxjkHH2w+Ezhw==}
     engines: {node: '>= 6'}
-
-  framer-motion@11.11.13:
-    resolution: {integrity: sha512-aoEA83gsqRRsnh4TN7S9YNcKVLrg+GtPNnxNMd9bGn23+pLmuKGQeccPnqffEKzlkgmy2MkMo0jRkK41S2LzWw==}
-    peerDependencies:
-      '@emotion/is-prop-valid': '*'
-      react: ^18.0.0
-      react-dom: ^18.0.0
-    peerDependenciesMeta:
-      '@emotion/is-prop-valid':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
 
   framer-motion@11.11.17:
     resolution: {integrity: sha512-O8QzvoKiuzI5HSAHbcYuL6xU+ZLXbrH7C8Akaato4JzQbX2ULNeniqC2Vo5eiCtFktX9XsJ+7nUhxcl2E2IjpA==}
@@ -4805,13 +4772,6 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)':
-    dependencies:
-      '@codemirror/language': 6.10.3
-      '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
-      '@lezer/common': 1.2.3
-
   '@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)':
     dependencies:
       '@codemirror/language': 6.10.3
@@ -4823,18 +4783,8 @@ snapshots:
     dependencies:
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       '@lezer/common': 1.2.3
-
-  '@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2)':
-    dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
-      '@codemirror/language': 6.10.3
-      '@codemirror/state': 6.4.1
-      '@lezer/common': 1.2.3
-      '@lezer/css': 1.1.9
-    transitivePeerDependencies:
-      - '@codemirror/view'
 
   '@codemirror/lang-css@6.3.0(@codemirror/view@6.34.3)':
     dependencies:
@@ -4848,23 +4798,23 @@ snapshots:
 
   '@codemirror/lang-html@6.4.9':
     dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
+      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.3)
       '@codemirror/lang-javascript': 6.2.2
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       '@lezer/common': 1.2.3
       '@lezer/css': 1.1.9
       '@lezer/html': 1.3.10
 
   '@codemirror/lang-javascript@6.2.2':
     dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       '@lezer/common': 1.2.3
       '@lezer/javascript': 1.4.19
 
@@ -4875,23 +4825,13 @@ snapshots:
 
   '@codemirror/lang-markdown@6.3.1':
     dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
       '@codemirror/lang-html': 6.4.9
       '@codemirror/language': 6.10.3
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       '@lezer/common': 1.2.3
       '@lezer/markdown': 1.3.2
-
-  '@codemirror/lang-sass@6.0.2(@codemirror/view@6.34.2)':
-    dependencies:
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
-      '@codemirror/language': 6.10.3
-      '@codemirror/state': 6.4.1
-      '@lezer/common': 1.2.3
-      '@lezer/sass': 1.0.7
-    transitivePeerDependencies:
-      - '@codemirror/view'
 
   '@codemirror/lang-sass@6.0.2(@codemirror/view@6.34.3)':
     dependencies:
@@ -4922,7 +4862,7 @@ snapshots:
   '@codemirror/language@6.10.3':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       '@lezer/common': 1.2.3
       '@lezer/highlight': 1.2.1
       '@lezer/lr': 1.4.2
@@ -4931,22 +4871,16 @@ snapshots:
   '@codemirror/lint@6.8.2':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       crelt: 1.0.6
 
   '@codemirror/search@6.5.7':
     dependencies:
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
       crelt: 1.0.6
 
   '@codemirror/state@6.4.1': {}
-
-  '@codemirror/view@6.34.2':
-    dependencies:
-      '@codemirror/state': 6.4.1
-      style-mod: 4.1.2
-      w3c-keyname: 2.2.8
 
   '@codemirror/view@6.34.3':
     dependencies:
@@ -5083,8 +5017,6 @@ snapshots:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
-
-  '@eslint/js@9.14.0': {}
 
   '@eslint/js@9.15.0': {}
 
@@ -5432,10 +5364,10 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/rsbuild-plugin@0.7.3(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)':
+  '@module-federation/rsbuild-plugin@0.7.5(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@rsbuild/core@1.1.2)':
     dependencies:
       '@module-federation/enhanced': 0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3)
-      '@module-federation/sdk': 0.7.3
+      '@module-federation/sdk': 0.7.5
       '@rsbuild/core': 1.1.2
 
   '@module-federation/rspack@0.7.0(typescript@5.6.3)':
@@ -5485,6 +5417,10 @@ snapshots:
       isomorphic-rslog: 0.0.5
 
   '@module-federation/sdk@0.7.3':
+    dependencies:
+      isomorphic-rslog: 0.0.6
+
+  '@module-federation/sdk@0.7.5':
     dependencies:
       isomorphic-rslog: 0.0.6
 
@@ -5844,24 +5780,10 @@ snapshots:
 
   '@radix-ui/rect@1.1.0': {}
 
-  '@replit/codemirror-lang-svelte@6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)':
+  '@replit/codemirror-lang-svelte@6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.3))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)':
     dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
-      '@codemirror/lang-html': 6.4.9
-      '@codemirror/lang-javascript': 6.2.2
-      '@codemirror/language': 6.10.3
-      '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
-      '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
-      '@lezer/javascript': 1.4.19
-      '@lezer/lr': 1.4.2
-
-  '@replit/codemirror-lang-svelte@6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)':
-    dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
+      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.3)
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-javascript': 6.2.2
       '@codemirror/language': 6.10.3
@@ -6111,53 +6033,6 @@ snapshots:
       - supports-color
       - vite
 
-  '@tutorialkit/react@1.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
-    dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
-      '@codemirror/commands': 6.7.1
-      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.2)
-      '@codemirror/lang-html': 6.4.9
-      '@codemirror/lang-javascript': 6.2.2
-      '@codemirror/lang-json': 6.0.1
-      '@codemirror/lang-markdown': 6.3.1
-      '@codemirror/lang-sass': 6.0.2(@codemirror/view@6.34.2)
-      '@codemirror/lang-vue': 0.1.3
-      '@codemirror/lang-wast': 6.0.2
-      '@codemirror/language': 6.10.3
-      '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
-      '@lezer/common': 1.2.3
-      '@lezer/highlight': 1.2.1
-      '@lezer/javascript': 1.4.19
-      '@lezer/lr': 1.4.2
-      '@nanostores/react': 0.7.2(nanostores@0.10.3)(react@18.3.1)
-      '@radix-ui/react-accordion': 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-context-menu': 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-dialog': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@replit/codemirror-lang-svelte': 6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)
-      '@tutorialkit/runtime': 1.2.2
-      '@tutorialkit/theme': 1.2.2(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
-      '@webcontainer/api': 1.2.4
-      '@xterm/addon-fit': 0.10.0(@xterm/xterm@5.5.0)
-      '@xterm/addon-web-links': 0.11.0(@xterm/xterm@5.5.0)
-      '@xterm/xterm': 5.5.0
-      codemirror: 6.0.1(@lezer/common@1.2.3)
-      framer-motion: 11.11.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      nanostores: 0.10.3
-      picomatch: 4.0.2
-      react: 18.3.1
-      react-resizable-panels: 2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-    transitivePeerDependencies:
-      - '@emotion/is-prop-valid'
-      - '@types/react'
-      - '@types/react-dom'
-      - '@unocss/webpack'
-      - postcss
-      - react-dom
-      - rollup
-      - supports-color
-      - vite
-
   '@tutorialkit/react@1.3.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
     dependencies:
       '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
@@ -6181,7 +6056,7 @@ snapshots:
       '@radix-ui/react-accordion': 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-context-menu': 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@radix-ui/react-dialog': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@replit/codemirror-lang-svelte': 6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.2))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)
+      '@replit/codemirror-lang-svelte': 6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.3))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)
       '@tutorialkit/runtime': 1.3.0
       '@tutorialkit/theme': 1.3.0(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       '@webcontainer/api': 1.5.1
@@ -6205,32 +6080,12 @@ snapshots:
       - supports-color
       - vite
 
-  '@tutorialkit/runtime@1.2.2':
-    dependencies:
-      '@tutorialkit/types': 1.2.2
-      '@webcontainer/api': 1.2.4
-      nanostores: 0.10.3
-      picomatch: 4.0.2
-
   '@tutorialkit/runtime@1.3.0':
     dependencies:
       '@tutorialkit/types': 1.3.0
       '@webcontainer/api': 1.5.1
       nanostores: 0.10.3
       picomatch: 4.0.2
-
-  '@tutorialkit/theme@1.2.2(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
-    dependencies:
-      '@iconify-json/ph': 1.2.1
-      '@iconify-json/svg-spinners': 1.2.1
-      fast-glob: 3.3.2
-      unocss: 0.59.4(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
-    transitivePeerDependencies:
-      - '@unocss/webpack'
-      - postcss
-      - rollup
-      - supports-color
-      - vite
 
   '@tutorialkit/theme@1.3.0(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
     dependencies:
@@ -6244,10 +6099,6 @@ snapshots:
       - rollup
       - supports-color
       - vite
-
-  '@tutorialkit/types@1.2.2':
-    dependencies:
-      zod: 3.23.8
 
   '@tutorialkit/types@1.3.0':
     dependencies:
@@ -6668,8 +6519,6 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@webcontainer/api@1.2.4': {}
-
   '@webcontainer/api@1.5.1': {}
 
   '@xterm/addon-fit@0.10.0(@xterm/xterm@5.5.0)':
@@ -6990,13 +6839,13 @@ snapshots:
 
   codemirror@6.0.1(@lezer/common@1.2.3):
     dependencies:
-      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.2)(@lezer/common@1.2.3)
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
       '@codemirror/commands': 6.7.1
       '@codemirror/language': 6.10.3
       '@codemirror/lint': 6.8.2
       '@codemirror/search': 6.5.7
       '@codemirror/state': 6.4.1
-      '@codemirror/view': 6.34.2
+      '@codemirror/view': 6.34.3
     transitivePeerDependencies:
       - '@lezer/common'
 
@@ -7433,13 +7282,6 @@ snapshots:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.35
-
-  framer-motion@11.11.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
-    dependencies:
-      tslib: 2.8.1
-    optionalDependencies:
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
 
   framer-motion@11.11.17(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
