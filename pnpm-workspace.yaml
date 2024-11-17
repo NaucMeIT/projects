@@ -5,3 +5,6 @@ packages:
     - rslib-ui
     - nmit-*
     - coursition-*
+    - shared-*
+    - libs/*
+    - apps/*

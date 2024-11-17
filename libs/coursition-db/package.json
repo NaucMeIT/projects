@@ -1,0 +1,32 @@
+{
+  "name": "coursition-db",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "postinstall": "prisma generate --schema ./src/schema.prisma"
+  },
+  "dependencies": {
+    "prisma": "5.22.0",
+    "@prisma/client": "5.22.0"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.0.18",
+    "@types/node": "^22.8.1",
+    "typescript": "^5.6.3"
+  }
+}

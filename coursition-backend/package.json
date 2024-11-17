@@ -6,7 +6,16 @@
     "build": "bun build --target bun --minify --sourcemap src/index.ts"
   },
   "dependencies": {
-    "elysia": "1.1.25"
+    "elysia": "1.1.25",
+    "@elysiajs/swagger": "1.1.6",
+    "@elysiajs/cors": "1.1.1",
+    "@sentry/bun": "8.38.0",
+    "effect": "3.10.15",
+    "@mendable/firecrawl-js": "1.8.4",
+    "@prisma/client": "5.22.0",
+    "@workos-inc/node": "7.32.0",
+    "coursition-auth": "workspace:*",
+    "shared-utils": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "1.1.13"
