@@ -6,7 +6,9 @@
 		"build": "pnpm --parallel -filter \"nmit-*\" build",
 		"dev": "pnpm --parallel -filter \"nmit-*\" dev",
 		"build:mf": "pnpm --parallel -filter \"vite-*\" build",
-		"dev:mf": "pnpm --parallel -filter \"vite-*\" dev"
+		"dev:mf": "pnpm --parallel -filter \"vite-*\" dev",
+		"build:coursition": "pnpm --parallel -filter \"coursition-*\" build",
+		"dev:coursition": "pnpm --parallel -filter \"coursition-*\" dev"
 	},
 	"author": "Petr Glaser",
 	"license": "MIT",

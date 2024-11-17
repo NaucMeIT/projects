@@ -4,3 +4,4 @@ packages:
     - vite-remote
     - rslib-ui
     - nmit-*
+    - coursition-*
