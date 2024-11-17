@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "build": "rslib build",
-    "dev": "pnpm build && http-server -p 3001 ./dist/ --cors"
+    "dev": "rslib mf dev"
   },
   "dependencies": {
     "http-server": "14.1.1"

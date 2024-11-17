@@ -1,3 +1,6 @@
+/* Import styles for components */
+@import "vite-rslib-ui/index.css";
+
 /* Light Mode (Default) */
 :root,
 :root[data-theme='light'] {

@@ -14,6 +14,7 @@ export default defineConfig({
       ...shared,
       format: 'esm',
       output: {
+        target: "web",
         distPath: {
           root: "./dist/esm",
         }
@@ -23,6 +24,7 @@ export default defineConfig({
       ...shared,
       format: 'cjs',
       output: {
+        target: "web",
         distPath: {
           root: "./dist/cjs",
         }
@@ -32,10 +34,11 @@ export default defineConfig({
       ...shared,
       format: "mf",
       output: {
+        target: "web",
         distPath: {
           root: "./dist/mf"
         },
-        assetPrefix: "http://localhost:3001/mf",
+        assetPrefix: "http://localhost:3000/mf",
       },
       plugins: [
         pluginModuleFederation({

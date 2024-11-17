@@ -3,10 +3,10 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"build": "pnpm -filter \"nmit-*\" build",
-		"dev": "pnpm -filter \"nmit-*\" dev",
-		"build:mf": "pnpm -filter \"vite-*\" build",
-		"dev:mf": "pnpm -filter \"vite-*\" dev"
+		"build": "pnpm --parallel -filter \"nmit-*\" build",
+		"dev": "pnpm --parallel -filter \"nmit-*\" dev",
+		"build:mf": "pnpm --parallel -filter \"vite-*\" build",
+		"dev:mf": "pnpm --parallel -filter \"vite-*\" dev"
 	},
 	"author": "Petr Glaser",
 	"license": "MIT",
