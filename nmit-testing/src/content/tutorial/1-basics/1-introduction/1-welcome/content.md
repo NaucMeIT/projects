@@ -1,38 +1,22 @@
 ---
 type: lesson
-title: Welcome to TutorialKit
-focus: /counter.js
+title: Co dělá tester
 ---
 
-# Welcome to TutorialKit
+Ahoj,
+jmenuji se Lia a ukážu ti základy své práce. Můj pracovní titul je Senior software engineer in test, ale sama o sobě mluvím jako o testerce webových aplikací.
 
-Hey there, and welcome to TutorialKit 👋!
+Má práce obnáší mnoho úkolů například:
 
-To kick things off, we have prepared a small demo lesson for you, where we'll dive into the concept of event handling in JavaScript. Our task is to resuscitate a lifeless counter app by introducing the crucial element of interactivity: **event listeners**.
+1. vytváření a správa automatických testů
+2. manuální testování - ne vše jde zautomatizovat
+3. ověřování práce developerů
+4. reportování chyb
+5. psaní testovací dokumentace
+6. přebírání nahlášených chyb od uživatelů
 
-Let's look at the preview on the right for a moment and try to click on the button that says `counter is 0`. We'll notice that it doesn't work.
+Juniorní tester má méně povinností, jsou úměrné jeho znalostem. Moje práce je hodně založená na komunikaci. Není to jen o tom, že si někde zalezu klikám a pak nahlásím zelené testy, ale musím komunikovat s týmem. Klíčové je, aby se v případě problémů dalo rychle zareagovat.
 
-In the code for `counter.js`, which you can find on the right, we have a `setupCounter` function responsible for initializing our counter app. However, a crucial component is missing: an event listener for the button.
+Ale už dost povídání. Podíváme se na testování aplikace a vyzkoušíš si reportování (hlášení) chyb. Prvně ale musíme mít co testovat. Proto si v druhém okně webovou aplikaci [Astronauts](https://astronauts.vercel.app/), která je databází těch neúžasnějších astronatů.
 
-Event listeners are essential in web development as they enable our applications to respond to user actions. In this case, we need to listen for clicks on the button to increment the counter.
-
-To address this, we'll call the `addEventListener` to attach a `click` event listener to the button element. When a click is detected, we'll execute a callback function that increments the counter and updates the `innerHTML` accordingly.
-
-```ts add={9}
-export function setupCounter(element) {
-  let counter = 0;
-
-  const setCounter = (count) => {
-    counter = count;
-    element.innerHTML = `count is ${counter}`;
-  };
-
-  element.addEventListener('click', () => setCounter(counter + 1));
-
-  setCounter(0);
-}
-```
-
-This gives you a sneak peak of the TutorialKit experience, demonstrating what it's capable of.
-
-Happy writing!
+Pokud máš, přejdi na další stránku.
