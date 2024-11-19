@@ -4,11 +4,10 @@ title: Astronaut nelze přidat s nekorekně vylněnými udaji
 ---
 
 Teď sis vyzkoušel hladkou happy path a jednu unhappy path. Ale to nestačí. Formulář na kartičce obsahuje spoustu políček, o kterých nevíme, jestli fungují.  Například First name by mělo určitě obsahovat jen písmena
----
-type: lesson
-title: Co dělá tester
----
-1. Astronaut nelze přidat s nekorekně  vyplněním First name
+
+<div style="background-color: var(--tk-background-secondary); padding: 0 0.5rem; margin: 0.5rem 0;">
+
+1. Astronaut nelze přidat s nekorekně vyplněným First name
     - Jdi na úvodní stránku aplikace
     - Klikni na modré tlačítko + ADD
     - Zadej do pole First name nekorektní údaje
@@ -16,24 +15,6 @@ title: Co dělá tester
     - Klikni na tlačítko ADD
     - Očekávaný výsledek: Formulář nelze potvdit. Input First name je ohraničený červeně a je pod ním hláška: Field allows only letters.
 
-Otestováno? button → Formulář lze uložit a vytvoří se nekorektní záznam. To je bug. Takže hurá na bug report. Už jsi zkušený, takže to zvládneš sám.
+</div>
 
-formulář
-
-Stručný a výstižný titulek
-
-Prostředí
-
-Reprostepy
-
-Aktuální výsledek
-
-Předpokládaný výsledek
-
-Hotovo → vygeneruje se nějaký hezký report a vedle toho report, jak by mohl vypadat
-
-Vypadá tvůj report podobně?
-
-Takhle bys mohl pokračovat dál s každým polem. Například s daty je to vtipné pořízení. Protože v každé zemi se nepíšou stejně.
-
-Dole pod reportem bude tlačítko přejít na další stránku
+Otestováno? Pokračuj na další stranu.
