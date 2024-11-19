@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Co dělá tester
+title: Astronaut nelze přidat s nekorekně vylněnými udaji
 ---
 
 Teď sis vyzkoušel hladkou happy path a jednu unhappy path. Ale to nestačí. Formulář na kartičce obsahuje spoustu políček, o kterých nevíme, jestli fungují.  Například First name by mělo určitě obsahovat jen písmena
@@ -20,19 +20,19 @@ Otestováno? button → Formulář lze uložit a vytvoří se nekorektní zázna
 
 formulář
 
-Stručný a výstižný titulek 
+Stručný a výstižný titulek
 
 Prostředí
 
 Reprostepy
 
-Aktuální výsledek 
+Aktuální výsledek
 
 Předpokládaný výsledek
 
 Hotovo → vygeneruje se nějaký hezký report a vedle toho report, jak by mohl vypadat
 
-Vypadá tvůj report podobně? 
+Vypadá tvůj report podobně?
 
 Takhle bys mohl pokračovat dál s každým polem. Například s daty je to vtipné pořízení. Protože v každé zemi se nepíšou stejně.
 

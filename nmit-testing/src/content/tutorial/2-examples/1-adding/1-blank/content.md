@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Co dělá tester
+title: Přidání astronauta vyplněním údajů
 ---
 
 1. Přidání astronauta vyplněním údajů

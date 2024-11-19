@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Co dělá tester
+title: Astronaut nelze přidat bez údajů
 ---
 
 Podíváme se na některou z unhappy path. Scénář, který by neměl projít.
@@ -15,9 +15,9 @@ Hotovo(button) → Záznam se uložil. Podle zadání to není správné chován
 
 Pokud právě ověřuji nově naprogramovanou funkci ADD, tak kontaktuji daného vývojáře a prodiskutuji s ním, že jsem nalezla chybu, kterou je potřeba upravit.
 
-Pokud například dělám regresní testování, tedy zpětně ověřuji, že systém funguje, musím založit report. 
+Pokud například dělám regresní testování, tedy zpětně ověřuji, že systém funguje, musím založit report.
 
-Každý report má určité náležitosti. Ukážeme si základní.  
+Každý report má určité náležitosti. Ukážeme si základní.
 
 - **Titulek (Title)** - krátký výstižný titulek, který vypovídá, o čem je chyba.
 - **Prostředí** **(Environment)** - pro vývojáře je důležité mít informace o prostředí, kde nastala chyba. Uvést bys měl: *Prohlížeč, verze prohlížeče, operační systém, verze aplikace (popřípadě prostředí - záleží na projektu), rozlišení, případně mobilní zařízení.* Hodně záleží na firmě a projektu, tyto požadavky se mohou dosti lišit, ale neuškodí, když je nahlásíš - vývojáři tě budou mít mnohem raději.
@@ -43,6 +43,6 @@ Předpokládaný výsledek - jaký má být výsledek (v zadání je napsaný o�
 
 Hotovo → [vygeneruje se nějaký hezký report a vedle toho report, jak by mohl vypadat]
 
-Vypadá tvůj report podobně? 
+Vypadá tvůj report podobně?
 
 Dole pod reportem bude tlačítko přejít na další stránku

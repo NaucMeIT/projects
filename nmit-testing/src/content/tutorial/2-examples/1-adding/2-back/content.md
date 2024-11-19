@@ -1,6 +1,6 @@
 ---
 type: lesson
-title: Co dělá tester
+title: Zrušení přidání astronauta
 ---
 
 Zrušení přidání astronauta

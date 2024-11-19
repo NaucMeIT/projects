@@ -1,4 +1,4 @@
 ---
 type: part
-title: Úvod
+title: Příklady
 ---
