@@ -1,5 +1,5 @@
-import { prisma, type cas__user } from 'coursition-db'
-import { randomStringGenerator } from 'shared-utils'
+import { prisma, type cas__user } from '@coursition/db'
+import { randomStringGenerator } from '@bleeding-dev/shared-utils'
 import type { User, UserProfileRawRecord, UserProfileResponse } from './typescript'
 
 export async function getUserProfile(apiKey: string): Promise<UserProfileResponse> {

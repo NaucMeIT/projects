@@ -1,5 +1,5 @@
 {
-  "name": "@coursition/auth",
+  "name": "@coursition/env",
   "version": "0.0.0",
   "type": "module",
   "exports": {
@@ -20,8 +20,8 @@
     "dev": "rslib build --watch"
   },
   "dependencies": {
-    "@bleeding-dev/shared-utils": "workspace:*",
-    "@coursition/db": "workspace:*"
+    "effect": "3.10.15",
+    "@infisical/sdk": "3.0.3"
   },
   "devDependencies": {
     "@rslib/core": "^0.0.18",

@@ -1,5 +1,5 @@
 {
-  "name": "coursition-db",
+  "name": "@coursition/db",
   "version": "0.0.0",
   "type": "module",
   "exports": {

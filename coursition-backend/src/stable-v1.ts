@@ -1,15 +1,15 @@
 import { unlink } from 'node:fs/promises'
 import FirecrawlApp from '@mendable/firecrawl-js'
 import { generateQuiz, getResult, getTranscript, uploadFile, waitUntilJobIsDone } from '@nmit-coursition/ai'
-import { apiCommonGuard, formatApiErrorResponse, reportUsage } from '@nmit-coursition/api/utils'
-import { secretsEnv } from '@nmit-coursition/env'
+import { apiCommonGuard, formatApiErrorResponse, reportUsage } from './utils'
+import { secretsEnv } from '@coursition/env'
 import {
   allowedDeepgramLanguagesAsType,
   allowedLlamaParseLanguagesAsType,
   downloadPublicMedia,
   languages,
   languagesAsType,
-} from '@nmit-coursition/utils'
+} from '@bleeding-dev/shared-utils'
 import { Redacted } from 'effect'
 import { Elysia, t } from 'elysia'
 
