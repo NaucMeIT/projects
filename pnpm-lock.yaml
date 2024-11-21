@@ -75,10 +75,10 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.3)
       '@astrojs/react':
         specifier: ^3.6.2
-        version: 3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.11(@types/node@20.17.6))
+        version: 3.6.3(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tutorialkit/astro':
         specifier: 1.3.0
-        version: 1.3.0(@types/react-dom@18.3.1)(astro@4.16.13(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+        version: 1.3.0(@types/node@20.17.6)(@types/react-dom@18.3.1)(astro@4.16.13(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       '@tutorialkit/theme':
         specifier: 1.3.0
         version: 1.3.0(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
@@ -252,8 +252,8 @@ packages:
     resolution: {integrity: sha512-Z9IYjuXSArkAUx3N6xj6+Bnvx8OdUSHA8YoOgyepp3+zJmtVYJIl/I18GozdJVW1p5u/CNpl3Km7/gwTJK85cw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
 
-  '@astrojs/react@3.6.2':
-    resolution: {integrity: sha512-fK29lYI7zK/KG4ZBy956x4dmauZcZ18osFkuyGa8r3gmmCQa2NZ9XNu9WaVYEUm0j89f4Gii4tbxLoyM8nk2MA==}
+  '@astrojs/react@3.6.3':
+    resolution: {integrity: sha512-5ihLQDH5Runddug5AZYlnp/Q5T81QxhwnWJXA9rchBAdh11c6UhBbv9Kdk7b2PkXoEU70CGWBP9hSh0VCR58eA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
@@ -2540,6 +2540,9 @@ packages:
   flatted@3.3.1:
     resolution: {integrity: sha512-X8cqMLLie7KsNUDSdzeN8FYK9rEt4Dt67OsG/DNGnYTSDBG4uFAJFBnUeiV+zCVAvwFy56IjM9sH51jVaEhNxw==}
 
+  flatted@3.3.2:
+    resolution: {integrity: sha512-AiwGJM8YcNOaobumgtng+6NHuOqC3A7MixFeDafM3X9cIUM+xUXoS5Vfgf+OihAYe20fxqNM9yPBXJzRtZ/4eA==}
+
   flattie@1.1.1:
     resolution: {integrity: sha512-9UbaD6XdAL97+k/n+N7JwX46K/M6Zc6KcFYskrYL8wbBV/Uyk0CTAMY0VT+qiK5PM7AIc9aTWYtq65U7T+aCNQ==}
     engines: {node: '>=8'}
@@ -4537,7 +4540,7 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.11(@types/node@20.17.6))':
+  '@astrojs/react@3.6.3(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@types/react': 18.3.12
       '@types/react-dom': 18.3.1
@@ -4545,9 +4548,17 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       ultrahtml: 1.5.3
+      vite: 5.4.11(@types/node@20.17.6)
     transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
       - supports-color
-      - vite
+      - terser
 
   '@astrojs/telemetry@3.1.0':
     dependencies:
@@ -5998,10 +6009,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tutorialkit/astro@1.3.0(@types/react-dom@18.3.1)(astro@4.16.13(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
+  '@tutorialkit/astro@1.3.0(@types/node@20.17.6)(@types/react-dom@18.3.1)(astro@4.16.13(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
     dependencies:
       '@astrojs/mdx': 3.1.9(astro@4.16.13(@types/node@20.17.6)(rollup@4.25.0)(typescript@5.6.3))
-      '@astrojs/react': 3.6.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.4.11(@types/node@20.17.6))
+      '@astrojs/react': 3.6.3(@types/node@20.17.6)(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@expressive-code/plugin-collapsible-sections': 0.35.6
       '@expressive-code/plugin-line-numbers': 0.35.6
       '@nanostores/react': 0.7.2(nanostores@0.10.3)(react@18.3.1)
@@ -6032,11 +6043,19 @@ snapshots:
       zod: 3.23.8
     transitivePeerDependencies:
       - '@emotion/is-prop-valid'
+      - '@types/node'
       - '@types/react-dom'
       - '@unocss/webpack'
+      - less
+      - lightningcss
       - postcss
       - rollup
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
       - supports-color
+      - terser
       - vite
 
   '@tutorialkit/react@1.3.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
@@ -7279,6 +7298,8 @@ snapshots:
 
   flatted@3.3.1: {}
 
+  flatted@3.3.2: {}
+
   flattie@1.1.1: {}
 
   follow-redirects@1.15.9: {}
@@ -7848,7 +7869,7 @@ snapshots:
     dependencies:
       date-format: 4.0.14
       debug: 4.3.7
-      flatted: 3.3.1
+      flatted: 3.3.2
       rfdc: 1.4.1
       streamroller: 3.1.5
     transitivePeerDependencies:
