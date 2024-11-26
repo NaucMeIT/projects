@@ -61,8 +61,8 @@ importers:
   nmit-testing:
     dependencies:
       '@tutorialkit/react':
-        specifier: 1.3.0
-        version: 1.3.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+        specifier: 1.3.1
+        version: 1.3.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1561,14 +1561,26 @@ packages:
   '@tutorialkit/react@1.3.0':
     resolution: {integrity: sha512-0rsPEoNWZ1GalP6EcAH4wFKEhp0+481IVOzuF/4OIjkliztk5TPU+HytDBRyH6Y5t/7rLFL3P+dWRnWstDnXKQ==}
 
+  '@tutorialkit/react@1.3.1':
+    resolution: {integrity: sha512-9DoSbZbHwsqAoPNf/v6o1jEJT6/CL/UptIUw4fxqBMEg33R1Uq704uM9ySOQL0HtA/fGfFdUnJGh4KniSe+fBw==}
+
   '@tutorialkit/runtime@1.3.0':
     resolution: {integrity: sha512-Z5V9f4v7HDjweqUns/XoLkyXCQ1VtLgCJbqp6OUIW90972pVFbbJaFLREFaPm50CVaUM2vGEWhscc05fK3ZFhw==}
+
+  '@tutorialkit/runtime@1.3.1':
+    resolution: {integrity: sha512-ou/GPeQpuSRI4i/M9dmsj07dOJGeZZB6ETbAQMwVWsTOhYCZ4qUk3blmrnkyKl2gHC9hYdProIKa5OkHBE37cg==}
 
   '@tutorialkit/theme@1.3.0':
     resolution: {integrity: sha512-h4FHRqIsxnwnrlGfym3VNaXNnNk9txlEPmW4Xf8UXFXLI104/UIPTbLJFRN5i+pZNgu/Dr4PIK/DAUvBlycqwQ==}
 
+  '@tutorialkit/theme@1.3.1':
+    resolution: {integrity: sha512-VTzDAPt3Hj9E3NfxnhOUshCWoAB4uMRP2AhvrqXLMQkdEluJ2GkXOreEzS8WWcsPzr4jqyFFj39wYwBBRuqd1w==}
+
   '@tutorialkit/types@1.3.0':
     resolution: {integrity: sha512-odi5sgT6NLupkQV/EuTtsYR93KeP9PxoJYw2T1cX0H3urUz5Cx3XdtxSEGc4be1dSn196sRjdkIEC/l064Z3cw==}
+
+  '@tutorialkit/types@1.3.1':
+    resolution: {integrity: sha512-4V7Jxsmeyq2a6UZBYTkNSl3NG75SZvFG/pUuxjtZVO1/EVY93Pz1f1RqNhuzlQf1d/rEOYlREMU25GWOij4z2Q==}
 
   '@types/acorn@4.0.6':
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
@@ -6108,9 +6120,63 @@ snapshots:
       - supports-color
       - vite
 
+  '@tutorialkit/react@1.3.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(postcss@8.4.49)(react-dom@18.3.1(react@18.3.1))(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
+    dependencies:
+      '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)
+      '@codemirror/commands': 6.7.1
+      '@codemirror/lang-css': 6.3.0(@codemirror/view@6.34.3)
+      '@codemirror/lang-html': 6.4.9
+      '@codemirror/lang-javascript': 6.2.2
+      '@codemirror/lang-json': 6.0.1
+      '@codemirror/lang-markdown': 6.3.1
+      '@codemirror/lang-sass': 6.0.2(@codemirror/view@6.34.3)
+      '@codemirror/lang-vue': 0.1.3
+      '@codemirror/lang-wast': 6.0.2
+      '@codemirror/language': 6.10.3
+      '@codemirror/state': 6.4.1
+      '@codemirror/view': 6.34.3
+      '@lezer/common': 1.2.3
+      '@lezer/highlight': 1.2.1
+      '@lezer/javascript': 1.4.19
+      '@lezer/lr': 1.4.2
+      '@nanostores/react': 0.7.2(nanostores@0.10.3)(react@18.3.1)
+      '@radix-ui/react-accordion': 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-context-menu': 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-dialog': 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@replit/codemirror-lang-svelte': 6.0.0(@codemirror/autocomplete@6.18.3(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3))(@codemirror/lang-css@6.3.0(@codemirror/view@6.34.3))(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.2)(@codemirror/language@6.10.3)(@codemirror/state@6.4.1)(@codemirror/view@6.34.3)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.19)(@lezer/lr@1.4.2)
+      '@tutorialkit/runtime': 1.3.1
+      '@tutorialkit/theme': 1.3.1(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+      '@webcontainer/api': 1.5.1
+      '@xterm/addon-fit': 0.10.0(@xterm/xterm@5.5.0)
+      '@xterm/addon-web-links': 0.11.0(@xterm/xterm@5.5.0)
+      '@xterm/xterm': 5.5.0
+      codemirror: 6.0.1(@lezer/common@1.2.3)
+      framer-motion: 11.11.17(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      nanostores: 0.10.3
+      picomatch: 4.0.2
+      react: 18.3.1
+      react-resizable-panels: 2.1.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    transitivePeerDependencies:
+      - '@emotion/is-prop-valid'
+      - '@types/react'
+      - '@types/react-dom'
+      - '@unocss/webpack'
+      - postcss
+      - react-dom
+      - rollup
+      - supports-color
+      - vite
+
   '@tutorialkit/runtime@1.3.0':
     dependencies:
       '@tutorialkit/types': 1.3.0
+      '@webcontainer/api': 1.5.1
+      nanostores: 0.10.3
+      picomatch: 4.0.2
+
+  '@tutorialkit/runtime@1.3.1':
+    dependencies:
+      '@tutorialkit/types': 1.3.1
       '@webcontainer/api': 1.5.1
       nanostores: 0.10.3
       picomatch: 4.0.2
@@ -6128,7 +6194,24 @@ snapshots:
       - supports-color
       - vite
 
+  '@tutorialkit/theme@1.3.1(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))':
+    dependencies:
+      '@iconify-json/ph': 1.2.1
+      '@iconify-json/svg-spinners': 1.2.1
+      fast-glob: 3.3.2
+      unocss: 0.59.4(postcss@8.4.49)(rollup@4.25.0)(vite@5.4.11(@types/node@20.17.6))
+    transitivePeerDependencies:
+      - '@unocss/webpack'
+      - postcss
+      - rollup
+      - supports-color
+      - vite
+
   '@tutorialkit/types@1.3.0':
+    dependencies:
+      zod: 3.23.8
+
+  '@tutorialkit/types@1.3.1':
     dependencies:
       zod: 3.23.8
 
