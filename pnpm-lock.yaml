@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@module-federation/rsbuild-plugin':
         specifier: 0.8.0
-        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.6)
+        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.7)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -115,10 +115,10 @@ importers:
     devDependencies:
       '@rsbuild/core':
         specifier: ^1.0.18
-        version: 1.1.6
+        version: 1.1.7
       '@rsbuild/plugin-react':
         specifier: ^1.0.5
-        version: 1.0.7(@rsbuild/core@1.1.6)
+        version: 1.0.7(@rsbuild/core@1.1.7)
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -140,10 +140,10 @@ importers:
     devDependencies:
       '@module-federation/rsbuild-plugin':
         specifier: 0.8.0
-        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.6)
+        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.7)
       '@rsbuild/plugin-react':
         specifier: ^1.0.6
-        version: 1.0.7(@rsbuild/core@1.1.6)
+        version: 1.0.7(@rsbuild/core@1.1.7)
       '@rslib/core':
         specifier: ^0.1.0
         version: 0.1.1(typescript@5.7.2)
@@ -1425,8 +1425,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rsbuild/core@1.1.6':
-    resolution: {integrity: sha512-u9Elj+xfgIPRD8rEXioE6xBJOdEGt0Pw1iJiGm/gU28FmH3QmOEFq2Jvo70RsOISNOy18kEM9y0RsqVgtVrpNw==}
+  '@rsbuild/core@1.1.7':
+    resolution: {integrity: sha512-YI8qGKa37e5X3av4cB4i06MZv89URW39SrfNqTR6Td7VPznX+n4pHcrYqj86sEM2/XPX57/UL9Hi/Nhu+A003g==}
     engines: {node: '>=16.7.0'}
     hasBin: true
 
@@ -5209,11 +5209,11 @@ snapshots:
       - utf-8-validate
       - vue-tsc
 
-  '@module-federation/rsbuild-plugin@0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.6)':
+  '@module-federation/rsbuild-plugin@0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.7)':
     dependencies:
       '@module-federation/enhanced': 0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
       '@module-federation/sdk': 0.8.0
-      '@rsbuild/core': 1.1.6
+      '@rsbuild/core': 1.1.7
 
   '@module-federation/rspack@0.7.0(typescript@5.7.2)':
     dependencies:
@@ -5681,23 +5681,23 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.25.0':
     optional: true
 
-  '@rsbuild/core@1.1.6':
+  '@rsbuild/core@1.1.7':
     dependencies:
       '@rspack/core': 1.1.4(@swc/helpers@0.5.15)
       '@rspack/lite-tapable': 1.0.1
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
-  '@rsbuild/plugin-react@1.0.7(@rsbuild/core@1.1.6)':
+  '@rsbuild/plugin-react@1.0.7(@rsbuild/core@1.1.7)':
     dependencies:
-      '@rsbuild/core': 1.1.6
+      '@rsbuild/core': 1.1.7
       '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
       react-refresh: 0.14.2
 
   '@rslib/core@0.1.1(typescript@5.7.2)':
     dependencies:
-      '@rsbuild/core': 1.1.6
-      rsbuild-plugin-dts: 0.1.1(@rsbuild/core@1.1.6)(typescript@5.7.2)
+      '@rsbuild/core': 1.1.7
+      rsbuild-plugin-dts: 0.1.1(@rsbuild/core@1.1.7)(typescript@5.7.2)
       tinyglobby: 0.2.10
     optionalDependencies:
       typescript: 5.7.2
@@ -8634,9 +8634,9 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.25.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.1.1(@rsbuild/core@1.1.6)(typescript@5.7.2):
+  rsbuild-plugin-dts@0.1.1(@rsbuild/core@1.1.7)(typescript@5.7.2):
     dependencies:
-      '@rsbuild/core': 1.1.6
+      '@rsbuild/core': 1.1.7
       magic-string: 0.30.14
       picocolors: 1.1.1
       tinyglobby: 0.2.10
