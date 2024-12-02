@@ -146,7 +146,7 @@ importers:
         version: 1.0.7(@rsbuild/core@1.1.7)
       '@rslib/core':
         specifier: ^0.1.0
-        version: 0.1.1(typescript@5.7.2)
+        version: 0.1.2(typescript@5.7.2)
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.12
@@ -1435,8 +1435,8 @@ packages:
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rslib/core@0.1.1':
-    resolution: {integrity: sha512-D/zCLzhNNM7DkuR/XNVFyB9er8OpmBpSJZQYeQgjuShg+JtXTWYX/DbmTniHpeO9B0ydMFS84WFO9ZAzGlDd6A==}
+  '@rslib/core@0.1.2':
+    resolution: {integrity: sha512-gHn0n/0JdHSE1fiut52cMjKXcvP3WQBVnTlKyzJ4u7Z1BMyEQGw/vloAskZdnZ1mMl74oyzGPx1xrXdFsf43Aw==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
@@ -3629,8 +3629,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.1.1:
-    resolution: {integrity: sha512-pm0tVPioQGaF8O50S9j51oAjIVfM0Sn0+BteZ1TIv5t3cBdQmI9dmd15YJERrwsZAAUPAtuwIWM1TmEGH2m4zQ==}
+  rsbuild-plugin-dts@0.1.2:
+    resolution: {integrity: sha512-dktQXqnrldvBnXaBaquy/ZX4HvvDMaNMX8vXHKlIhmbXIVSK+PtkgVTAeBJX2f++hWj2aSxyTbpz6Va7PoawEA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -5694,10 +5694,10 @@ snapshots:
       '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
       react-refresh: 0.14.2
 
-  '@rslib/core@0.1.1(typescript@5.7.2)':
+  '@rslib/core@0.1.2(typescript@5.7.2)':
     dependencies:
       '@rsbuild/core': 1.1.7
-      rsbuild-plugin-dts: 0.1.1(@rsbuild/core@1.1.7)(typescript@5.7.2)
+      rsbuild-plugin-dts: 0.1.2(@rsbuild/core@1.1.7)(typescript@5.7.2)
       tinyglobby: 0.2.10
     optionalDependencies:
       typescript: 5.7.2
@@ -8634,7 +8634,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.25.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.1.1(@rsbuild/core@1.1.7)(typescript@5.7.2):
+  rsbuild-plugin-dts@0.1.2(@rsbuild/core@1.1.7)(typescript@5.7.2):
     dependencies:
       '@rsbuild/core': 1.1.7
       magic-string: 0.30.14
