@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@module-federation/vite':
-        specifier: 1.1.8
-        version: 1.1.8(rollup@4.25.0)
+        specifier: 1.1.9
+        version: 1.1.9(rollup@4.25.0)
 
   host:
     dependencies:
@@ -972,8 +972,8 @@ packages:
   '@module-federation/third-party-dts-extractor@0.7.0':
     resolution: {integrity: sha512-ERKW61ONZ0dgXHDE8Ld/KnwY+0TbmiZSFa99IuW6t+FKUoM9snvGqBSs5bgbY4ZjxG8mG6t1nLdTj2+/f7xejw==}
 
-  '@module-federation/vite@1.1.8':
-    resolution: {integrity: sha512-XBWgFFFn1tJDTj54taSsBTSRyLJc/o1O3xC9rMRVMg4wCb0PvZZ4nYCHgA77NhtqwFTr9a2Bnx9I0g97fEkUog==}
+  '@module-federation/vite@1.1.9':
+    resolution: {integrity: sha512-gUo/uV8ZlHTLJjgKy02lXb7zo9auqOIt5Ozw1ewP9vkMrNQVEm4ZxmZ7P+k8Rb9O2PjfdHOLRuHfNmXHmywzUw==}
 
   '@module-federation/webpack-bundler-runtime@0.5.1':
     resolution: {integrity: sha512-mMhRFH0k2VjwHt3Jol9JkUsmI/4XlrAoBG3E0o7HoyoPYv1UFOWyqAflfANcUPgbYpvqmyLzDcO+3IT36LXnrA==}
@@ -5271,7 +5271,7 @@ snapshots:
       fs-extra: 9.1.0
       resolve: 1.22.8
 
-  '@module-federation/vite@1.1.8(rollup@4.25.0)':
+  '@module-federation/vite@1.1.9(rollup@4.25.0)':
     dependencies:
       '@module-federation/runtime': 0.8.0
       '@rollup/pluginutils': 5.1.3(rollup@4.25.0)
