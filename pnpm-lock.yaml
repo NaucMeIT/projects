@@ -140,13 +140,13 @@ importers:
     devDependencies:
       '@module-federation/rsbuild-plugin':
         specifier: 0.8.0
-        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.8)
+        version: 0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.9)
       '@rsbuild/plugin-react':
         specifier: ^1.0.6
-        version: 1.0.7(@rsbuild/core@1.1.8)
+        version: 1.0.7(@rsbuild/core@1.1.9)
       '@rslib/core':
         specifier: ^0.1.0
-        version: 0.1.2(typescript@5.7.2)
+        version: 0.1.3(typescript@5.7.2)
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.14
@@ -1430,13 +1430,18 @@ packages:
     engines: {node: '>=16.7.0'}
     hasBin: true
 
+  '@rsbuild/core@1.1.9':
+    resolution: {integrity: sha512-mHZveEwlTtW9nxWa+T0xUm6ssm+HkDYZ0NENLfWMUmsL0LjMJrpQzRlbD+p5+9Uf+KXUo3Dbtv0ScA+p7cuGTg==}
+    engines: {node: '>=16.7.0'}
+    hasBin: true
+
   '@rsbuild/plugin-react@1.0.7':
     resolution: {integrity: sha512-t7T/GqDwodusTAnxGpqVRnQ/G+HYh98zk71qIg19WkjVJJGv57AC1Ppx0/6zzbZAbxU60bfK8TeEEXjhXCdSxA==}
     peerDependencies:
       '@rsbuild/core': 1.x
 
-  '@rslib/core@0.1.2':
-    resolution: {integrity: sha512-gHn0n/0JdHSE1fiut52cMjKXcvP3WQBVnTlKyzJ4u7Z1BMyEQGw/vloAskZdnZ1mMl74oyzGPx1xrXdFsf43Aw==}
+  '@rslib/core@0.1.3':
+    resolution: {integrity: sha512-M4P5KSGKWJZyB0zIMeHTBXqk9Uk7ZQB9fxxd8JJFMYhCiTBkx0zoA69XICyjFzgKLQ6sEGfbISnXNPLuLLgflg==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
@@ -3642,8 +3647,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rsbuild-plugin-dts@0.1.2:
-    resolution: {integrity: sha512-dktQXqnrldvBnXaBaquy/ZX4HvvDMaNMX8vXHKlIhmbXIVSK+PtkgVTAeBJX2f++hWj2aSxyTbpz6Va7PoawEA==}
+  rsbuild-plugin-dts@0.1.3:
+    resolution: {integrity: sha512-a2O1U7LnzW9+53A7+DXvGhAgmZdmi07Cu12CkCcP9uMcOu5dnFR5JlFPVCN/se5P9h32bGnUJ0bKqR8UrLmJxA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -5228,6 +5233,12 @@ snapshots:
       '@module-federation/sdk': 0.8.0
       '@rsbuild/core': 1.1.8
 
+  '@module-federation/rsbuild-plugin@0.8.0(@module-federation/enhanced@0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@rsbuild/core@1.1.9)':
+    dependencies:
+      '@module-federation/enhanced': 0.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2)
+      '@module-federation/sdk': 0.8.0
+      '@rsbuild/core': 1.1.9
+
   '@module-federation/rspack@0.7.0(typescript@5.7.2)':
     dependencies:
       '@module-federation/bridge-react-webpack-plugin': 0.7.0
@@ -5701,16 +5712,29 @@ snapshots:
       '@swc/helpers': 0.5.15
       core-js: 3.39.0
 
+  '@rsbuild/core@1.1.9':
+    dependencies:
+      '@rspack/core': 1.1.5(@swc/helpers@0.5.15)
+      '@rspack/lite-tapable': 1.0.1
+      '@swc/helpers': 0.5.15
+      core-js: 3.39.0
+
   '@rsbuild/plugin-react@1.0.7(@rsbuild/core@1.1.8)':
     dependencies:
       '@rsbuild/core': 1.1.8
       '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
       react-refresh: 0.14.2
 
-  '@rslib/core@0.1.2(typescript@5.7.2)':
+  '@rsbuild/plugin-react@1.0.7(@rsbuild/core@1.1.9)':
     dependencies:
-      '@rsbuild/core': 1.1.8
-      rsbuild-plugin-dts: 0.1.2(@rsbuild/core@1.1.8)(typescript@5.7.2)
+      '@rsbuild/core': 1.1.9
+      '@rspack/plugin-react-refresh': 1.0.0(react-refresh@0.14.2)
+      react-refresh: 0.14.2
+
+  '@rslib/core@0.1.3(typescript@5.7.2)':
+    dependencies:
+      '@rsbuild/core': 1.1.9
+      rsbuild-plugin-dts: 0.1.3(@rsbuild/core@1.1.9)(typescript@5.7.2)
       tinyglobby: 0.2.10
     optionalDependencies:
       typescript: 5.7.2
@@ -8653,9 +8677,9 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.25.0
       fsevents: 2.3.3
 
-  rsbuild-plugin-dts@0.1.2(@rsbuild/core@1.1.8)(typescript@5.7.2):
+  rsbuild-plugin-dts@0.1.3(@rsbuild/core@1.1.9)(typescript@5.7.2):
     dependencies:
-      '@rsbuild/core': 1.1.8
+      '@rsbuild/core': 1.1.9
       magic-string: 0.30.14
       picocolors: 1.1.1
       tinyglobby: 0.2.10
